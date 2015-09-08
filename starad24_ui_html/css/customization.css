@@ -23,11 +23,13 @@
 
 .dark .slider-caption p{margin:0 150px;}
 
-#primary-menu ul li{line-height:100px;}
+#header, #header-wrap, #logo img, #primary-menu:not(.style-2), #primary-menu:not(.style-2) > ul{height:80px;}
+#primary-menu ul li{line-height:80px;}
+#primary-menu ul li a{height:80px; line-height: 80px;}
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li{line-height:60px;}
 
 
-@media (min-width: 1156px) and (max-width: 1397px)
+@media (min-width: 1156px) and (max-width: 1437px)
 {
 	#primary-menu ul li a{padding: 0 5px; letter-spacing:0; font-size: 14px;}
 	#header.full-header #primary-menu > ul{margin-right: 10px; padding-right: 10px;}
@@ -68,6 +70,40 @@
 	.hidden-xs-sm {display: none;}
 	
 }
+
+
+
+/* Style Overwrite Starts */
+
+body, body h1, body h1, body h3, body h4, body h5, body h6
+{font-weight: 700}
+
+
+.heading-block h1, .heading-block h2, .heading-block h3, .heading-block h4
+{font-weight: 300}
+
+.emphasis-title h1,
+.emphasis-title h2
+{font-weight: 100}
+
+
+/* Style Overwrite Ends */
+
+
+/* Common Starts */
+
+.font-thin
+{font-weight: 100}
+
+.font-light
+{font-weight: 300}
+
+
+.font-ultra-bold
+{font-weight: 900}
+
+
+/* Common End */
 
 
 
