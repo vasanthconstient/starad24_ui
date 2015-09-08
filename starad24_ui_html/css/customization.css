@@ -53,6 +53,12 @@
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li:hover ul a, 
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current ul a
 	{ color: #fff !important }
+	
+	#top-search a, #top-cart, #side-panel-trigger{margin: 30px 0;}
+	#logo{height: 80px;}
+	#logo img{margin-top: 10px}
+	#primary-menu-trigger{top:15px;}
+	
 }
 
 
