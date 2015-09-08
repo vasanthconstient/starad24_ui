@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300italic,300,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	
+	<link rel="stylesheet" href="css/customization.css" type="text/css" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+
+	<!-- Document Title
+	============================================= -->
+	<title>StarAd24 | Multi-level Marketing Platform</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="index.html" class="standard-logo" data-dark-logo="images/logo_starad24.png"><img src="images/logo_starad24.png" alt="StarAd24 Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="images/logo_starad24.png"><img src="images/logo_starad24.png" alt="StarAd24 Logo"></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu" class="dark">
+
+						<ul>
+
+							<li><a href="#"><div>Earn Money</div></a></li>
+							<li><a href="#"><div>Effective Publishing</div></a></li>
+							<li><a href="#"><div>Partner Programs</div></a></li>
+							<li><a href="#"><div>News</div></a></li>
+							<li><a href="#"><div>Promotions</div></a></li>
+							<li><a href="#"><div>Services</div></a>
+                                <ul style="display: none;">
+
+                                    <li><a href="#"><div><i class="icon-line-layout"></i>Events</div></a></li>
+                                    <li><a href="#"><div><i class="icon-line-layout"></i>Store</div></a></li>
+                                    <li><a href="#"><div><i class="icon-line-layout"></i>Downloads</div></a></li>
+                                    <li><a href="#"><div><i class="icon-line-layout"></i>F.A.Q.</div></a></li>
+
+                                </ul>
+                            </li>
+						</ul>
+
+						<!-- Top Cart
+						============================================= -->
+						<div id="top-cart">
+							<a href="#" id="top-cart-trigger"><i class="icon-user i-large"></i></a>
+							<div class="top-cart-content">
+								<div class="top-cart-title">
+									<h4>Login</h4>
+								</div>
+								<div class="top-cart-items">
+									<div class="top-cart-item clearfix">
+										<input placeholder="Username" type="text">
+									</div>
+									<div class="top-cart-item clearfix">
+                                        <input placeholder="Password" type="password">
+									</div>
+								</div>
+								<div class="top-cart-action clearfix">
+									<span class="fleft top-checkout-price">Forgot your password?</span>
+									<button class="button button-3d button-small nomargin fright">Login</button>
+								</div>
+							</div>
+						</div><!-- #top-cart end -->
+
+
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
+
+			<div class="swiper-container swiper-parent">
+				<div class="swiper-wrapper">
+                    <div class="swiper-slide dark" style="background-image: url(&quot;http://www.summitrecruitment-kenya.com/wp-content/uploads/2013/03/management-medium11.jpg&quot;); width: 1504.8px; height: 126px;">
+                        <div class="container clearfix">
+                            <div style="transform: translate(0px, 0px); opacity: 2.22222; top: 30px;" class="slider-caption slider-caption-center">
+                                <h2 class="not-animated" data-caption-animate="fadeInUp">Welcome to Starad24</h2>
+                                <p class="not-animated" data-caption-animate="fadeInUp" data-caption-delay="200">Profit and earn as a partner! Test now for free!</p>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+				<div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
+				<div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
+			</div>
+
+			<script>
+				jQuery(document).ready(function($){
+					var swiperSlider = new Swiper('.swiper-parent',{
+						paginationClickable: false,
+						slidesPerView: 1,
+						grabCursor: true,
+						loop: true,
+						onSwiperCreated: function(swiper){
+							$('[data-caption-animate]').each(function(){
+								var $toAnimateElement = $(this);
+								var toAnimateDelay = $(this).attr('data-caption-delay');
+								var toAnimateDelayTime = 0;
+								if( toAnimateDelay ) { toAnimateDelayTime = Number( toAnimateDelay ) + 750; } else { toAnimateDelayTime = 750; }
+								if( !$toAnimateElement.hasClass('animated') ) {
+									$toAnimateElement.addClass('not-animated');
+									var elementAnimation = $toAnimateElement.attr('data-caption-animate');
+									setTimeout(function() {
+										$toAnimateElement.removeClass('not-animated').addClass( elementAnimation + ' animated');
+									}, toAnimateDelayTime);
+								}
+							});
+							SEMICOLON.slider.swiperSliderMenu();
+						},
+						onSlideChangeStart: function(swiper){
+							$('[data-caption-animate]').each(function(){
+								var $toAnimateElement = $(this);
+								var elementAnimation = $toAnimateElement.attr('data-caption-animate');
+								$toAnimateElement.removeClass('animated').removeClass(elementAnimation).addClass('not-animated');
+							});
+							SEMICOLON.slider.swiperSliderMenu();
+						},
+						onSlideChangeEnd: function(swiper){
+							$('#slider').find('.swiper-slide').each(function(){
+								if($(this).find('video').length > 0) { $(this).find('video').get(0).pause(); }
+								if($(this).find('.yt-bg-player').length > 0) { $(this).find('.yt-bg-player').pauseYTP(); }
+							});
+							$('#slider').find('.swiper-slide:not(".swiper-slide-active")').each(function(){
+								if($(this).find('video').length > 0) {
+									if($(this).find('video').get(0).currentTime != 0 ) $(this).find('video').get(0).currentTime = 0;
+								}
+								if($(this).find('.yt-bg-player').length > 0) {
+									$(this).find('.yt-bg-player').getPlayer().seekTo( $(this).find('.yt-bg-player').attr('data-start') );
+								}
+							});
+							if( $('#slider').find('.swiper-slide.swiper-slide-active').find('video').length > 0 ) { $('#slider').find('.swiper-slide.swiper-slide-active').find('video').get(0).play(); }
+							if( $('#slider').find('.swiper-slide.swiper-slide-active').find('.yt-bg-player').length > 0 ) { $('#slider').find('.swiper-slide.swiper-slide-active').find('.yt-bg-player').playYTP(); }
+
+							$('#slider .swiper-slide.swiper-slide-active [data-caption-animate]').each(function(){
+								var $toAnimateElement = $(this);
+								var toAnimateDelay = $(this).attr('data-caption-delay');
+								var toAnimateDelayTime = 0;
+								if( toAnimateDelay ) { toAnimateDelayTime = Number( toAnimateDelay ) + 300; } else { toAnimateDelayTime = 300; }
+								if( !$toAnimateElement.hasClass('animated') ) {
+									$toAnimateElement.addClass('not-animated');
+									var elementAnimation = $toAnimateElement.attr('data-caption-animate');
+									setTimeout(function() {
+										$toAnimateElement.removeClass('not-animated').addClass( elementAnimation + ' animated');
+									}, toAnimateDelayTime);
+								}
+							});
+						}
+					});
+
+					$('#slider-arrow-left').on('click', function(e){
+						e.preventDefault();
+						swiperSlider.swipePrev();
+					});
+
+					$('#slider-arrow-right').on('click', function(e){
+						e.preventDefault();
+						swiperSlider.swipeNext();
+					});
+				});
+			</script>
+
+			<a href="#" data-scrollto="#content" data-offset="100" class="dark one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+
+		</section>
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+				<div class="container clearfix">
+					<div class="row clearfix">
+
+						<div class="col-lg-5">
+							<!--<div class="heading-block topmargin">-->
+							<div class="heading-block">
+								<h1>Welcome to Starad24<br />Multi-level Marketing Platform.</h1>
+							</div>
+							<p class="lead">Get started now to get the ball on your personal career with STARAD24 rolling.</p>
+						</div>
+
+						<div class="col-lg-7">
+
+							<div style="position: relative; margin-bottom: -60px;" class="ohidden" data-height-lg="426" data-height-md="567" data-height-sm="470" data-height-xs="287" data-height-xxs="183">
+								<img src="images/customization/vision_composed.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
+								<!--<img src="images/services/main-fmobile.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad">-->
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+				<div class="section nobottommargin">
+					<div class="container clear-bottommargin clearfix">
+
+						<!--<div class="row topmargin-sm clearfix" style="text-align:center;">-->
+							
+					    <div class="row topmargin-sm clearfix text-center">
+
+							<!--<div class="col-md-4 bottommargin">-->
+								<div class="col-md-4">
+								<i class="i-plain color i-large icon-line-check inline-block" style="margin-bottom: 15px;"></i>
+								<div class="heading-block nobottomborder" style="margin-bottom: 15px;">
+
+									<h4>Test for 3 Months.<br />No Obligations</h4>
+								</div>
+								<p class="text-left">As a registered member you are given the opportunity to test STARAD24 for 3 months for free and without obligation.You can have up to 3 demo-accounts, with which you can test and individually configure different advertising scenarios.</p>
+							</div>
+
+							<!--<div class="col-md-4 bottommargin">-->
+							<div class="col-md-4">
+								<i class="i-plain color i-large icon-star inline-block" style="margin-bottom: 15px;"></i>
+								<div class="heading-block nobottomborder" style="margin-bottom: 15px;">
+
+									<h4>Non-binding<br />registration</h4>
+								</div>
+								<p class="text-left">The registration is free and without obligation.The details you have provided are protected and kept safe in compliance with appropriate guidelines, and therefore not accessible to any Third Parties. Important information: only one person per household may register.</p>
+							</div>
+
+							<!--<div class="col-md-4 bottommargin">-->
+							<div class="col-md-4">
+								<i class="i-plain color i-large icon-graph inline-block" style="margin-bottom: 15px;"></i>
+								<div class="heading-block nobottomborder" style="margin-bottom: 15px;">
+
+									<h4>A growing income 24 times a day<br />7 days a week. </h4>
+								</div>
+								<p class="text-left">As a active partner you will receive hourly Bonuses on your promotion packs 24 hours a day,. That means you can see your income grow; in realtime, day by day, hour by hour. All transactions will be displayed in a clear and transparent way for you.</p>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+				<div class="container clearfix">
+
+					<div class="row topmargin-lg bottommargin-sm">
+
+						<div class="heading-block center">
+							<h2>Your advertisements will be targeted and effectively placed with STARAD24!</h2>
+							<span class="divcenter">To advertise with STARAD24 means that every euro is intelligently and profitably invested. STARAD24 makes sure that your advertisement reaches your specific target market.</span>
+						</div>
+
+						<div class="col-md-4 col-sm-6 bottommargin">
+
+							<div class="feature-box fbox-right topmargin" data-animate="fadeIn">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-check"></i></a>
+								</div>
+								<h3> Lorem ipsum dolor sit amet</h3>
+								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum laoreet purus nec congue.</p>
+							</div>
+
+							<div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="200">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-check"></i></a>
+								</div>
+                                <h3> Lorem ipsum dolor sit amet</h3>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum laoreet purus nec congue.</p>
+                            </div>
+
+							<!--<div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="400">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-check"></i></a>
+								</div>
+                                <h3> Lorem ipsum dolor sit amet</h3>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum laoreet purus nec congue.</p>
+							</div>-->
+
+						</div>
+
+						<div class="col-md-4 hidden-sm bottommargin center">
+							<!--<img src="images/services/iphone7.png" alt="iphone 2">-->
+							<img src="images/customization/your_ad_targetted.PNG" alt="Your Ad Will be Targetted"/>
+						</div>
+
+						<div class="col-md-4 col-sm-6 bottommargin">
+
+							<div class="feature-box topmargin" data-animate="fadeIn">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-check"></i></a>
+								</div>
+                                <h3> Lorem ipsum dolor sit amet</h3>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum laoreet purus nec congue.</p>
+                            </div>
+
+							<div class="feature-box topmargin" data-animate="fadeIn" data-delay="200">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-check"></i></a>
+								</div>
+                                <h3> Lorem ipsum dolor sit amet</h3>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum laoreet purus nec congue.</p>
+                            </div>
+
+							<!--<div class="feature-box topmargin" data-animate="fadeIn" data-delay="400">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-check"></i></a>
+								</div>
+                                <h3> Lorem ipsum dolor sit amet</h3>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum laoreet purus nec congue.</p>
+                         </div>-->
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="row clearfix common-height">
+
+					<div class="col-md-6 center col-padding" style="background: url('images/customization/digital_marketing_548x365.jpg') center center no-repeat; background-size: cover;">
+						<div>&nbsp;</div>
+					</div>
+
+					<div class="col-md-6 center col-padding" style="background-color: #F5F5F5;">
+						<div>
+							<div class="heading-block nobottomborder">
+								<span class="before-heading color">Easily Understandable &amp; Customizable.</span>
+								<h3>Walkthrough Videos &amp; Demos</h3>
+							</div>
+
+							<div class="center bottommargin">
+								<a href="http://vimeo.com/101373765" data-lightbox="iframe" style="position: relative;">
+									<img src="images/services/video.jpg" alt="Video">
+									<span class="i-overlay nobg"><img src="images/icons/video-play.png" alt="Play"></span>
+								</a>
+							</div>
+							<p class="lead nobottommargin">Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact; transformative donation philanthropy, respect reproductive.</p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="row clearfix bottommargin-lg common-height"  >
+
+					<div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: rgba(143,102,53,0.15);">
+						<div>
+							<i class="i-plain i-xlarge divcenter icon-smile" style="color:#4c4743;"></i>
+							<div class="counter counter-lined"><span data-from="100" data-to="846" data-refresh-interval="50" data-speed="2000"></span>K</div>
+							<h5>Description</h5>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 dark center col-padding" style="background-color:  rgba(143,102,53,0.25);">
+						<div>
+							<i class="i-plain i-xlarge divcenter icon-euro" style="color:#4c4743;"></i>
+							<div class="counter counter-lined"><span data-from="3000" data-to="21500" data-refresh-interval="100" data-speed="2500"></span></div>
+							<h5>Description</h5>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 dark center col-padding" style="background-color:  rgba(143,102,53,0.15);">
+						<div>
+							<i class="i-plain i-xlarge divcenter icon-line2-share" style="color:#4c4743;"></i>
+							<div class="counter counter-lined"><span data-from="10" data-to="408" data-refresh-interval="25" data-speed="3500"></span></div>
+							<h5>Description</h5>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 dark center col-padding" style="background-color:  rgba(143,102,53,0.25);">
+						<div>
+							<i class="i-plain i-xlarge divcenter icon-line2-pointer" style="color:#4c4743;"></i>
+							<div class="counter counter-lined"><span data-from="60" data-to="1400" data-refresh-interval="30" data-speed="2700"></span></div>
+							<h5>Description</h5>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="container clearfix">
+
+					<div class="col_one_third">
+						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-line-monitor"></i></a>
+							</div>
+							<h3>Lorem Ipsum is simply dummy</h3>
+							<!--<p>Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>-->
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						</div>
+					</div>
+
+					<div class="col_one_third">
+						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="200">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-line-eye"></i></a>
+							</div>
+							<h3>Lorem Ipsum is simply dummy</h3>
+							<!--<p>Looks beautiful &amp; ultra-sharp on Retina Displays with Retina Icons, Fonts &amp; Images.</p>-->
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						</div>
+					</div>
+
+					<div class="col_one_third col_last">
+						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="400">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-line-star"></i></a>
+							</div>
+							<h3>Lorem Ipsum is simply dummy</h3>
+							<!--<p>Optimized code that are completely customizable and deliver unmatched fast performance.</p>-->
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						</div>
+					</div>
+
+					<div class="clear"></div>
+
+					<div class="col_one_third bottommargin-sm">
+						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-line-play"></i></a>
+							</div>
+							<h3>Lorem Ipsum is simply dummy</h3>
+							<!--<p>Canvas provides support for Native HTML5 Videos that can be added to a Full Width Background.</p>-->
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						</div>
+					</div>
+<!--
+					<div class="col_one_third">
+						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="800">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-params"></i></a>
+							</div>
+							<h3>Lorem Ipsum is simply dummy</h3>
+							<!--<p>Display your Content attractively using Parallax Sections that have unlimited customizable areas.</p>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						</div>
+					</div>
+-->
+					<div class="col_one_third bottommargin-sm">
+						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="1000">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-line-circle-check"></i></a>
+							</div>
+							<h3>Lorem Ipsum is simply dummy</h3>
+							<!--<p>Complete control on each &amp; every element that provides endless customization possibilities.</p>-->
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						</div>
+					</div>
+
+					<!--<div class="clear"></div>-->
+
+					<div class="col_one_third bottommargin-sm col_last">
+						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-bulb"></i></a>
+							</div>
+							<h3>Lorem Ipsum is simply dummy</h3>
+							<!--<p>Change your Website's Primary Scheme instantly by simply adding the dark class to the body.</p>-->
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						</div>
+					</div>
+					
+<!--					
+
+					<div class="col_one_third bottommargin-sm">
+						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="800">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-heart2"></i></a>
+							</div>
+							<h3>Lorem Ipsum is simply dummy</h3>
+							<!--<p>Stretch your Website to the Full Width or make it boxed to surprise your visitors.</p>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						</div>
+					</div>
+					
+					
+				
+
+					<div class="col_one_third bottommargin-sm col_last">
+						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="1000">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-note"></i></a>
+							</div>
+							<h3>Lorem Ipsum is simply dummy</h3>
+							<!--<p>We have covered each &amp; everything in our Documentation including Videos &amp; Screenshots.</p>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						</div>
+					</div>
+
+					
+					
+-->					
+<div class="clear"></div>
+
+				</div>
+
+				<div class="section topmargin nobottommargin nobottomborder button-dark nopadding">
+					<div class="container clearfix nomargin nopadding" style="width:100%; margin: 10px 0px !important;">
+						<div class="fullwidth center">
+                            <img src="http://www.starad24.com/pics/banner/nhc_1.png" />
+						</div>
+					</div>
+				</div>
+
+				<!--<div id="portfolio" class="portfolio-nomargin portfolio-notitle portfolio-full clearfix">-->
+
+                <div id="portfolio" class="portfolio-nomargin portfolio-full clearfix">
+
+					<article class="portfolio-item pf-icons pf-illustrations">
+						<div class="portfolio-image">
+							<!--<a href="portfolio-single.html">-->
+							<a href="#">
+								<img src="images/gallery_images/gallery_img_1.jpg" alt="Open Imagination">
+							</a>
+							<div class="portfolio-overlay" data-lightbox="gallery">
+								<a href="images/portfolio/full/4.jpg" class="center-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+								<a href="images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
+							</div>
+						</div>
+                        <!---
+						<div class="portfolio-desc">
+							<h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
+							<span><a href="#"><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
+						</div>--->
+					</article>
+                    <article class="portfolio-item pf-icons pf-illustrations">
+                        <div class="portfolio-image">
+                            <!--<a href="portfolio-single.html">-->
+                            <a href="#">
+                                <img src="images/gallery_images/gallery_img_2.jpg" alt="Open Imagination">
+                            </a>
+                            <div class="portfolio-overlay" data-lightbox="gallery">
+                                <a href="images/portfolio/full/4.jpg" class="center-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                            </div>
+                        </div>
+                        <!---
+						<div class="portfolio-desc">
+							<h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
+							<span><a href="#"><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
+						</div>--->
+                    </article>
+                    <article class="portfolio-item pf-icons pf-illustrations">
+                        <div class="portfolio-image">
+                            <!--<a href="portfolio-single.html">-->
+                            <a href="#">
+                                <img src="images/gallery_images/gallery_img_3.jpg" alt="Open Imagination">
+                            </a>
+                            <div class="portfolio-overlay" data-lightbox="gallery">
+                                <a href="images/portfolio/full/4.jpg" class="center-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                            </div>
+                        </div>
+                        <!---
+						<div class="portfolio-desc">
+							<h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
+							<span><a href="#"><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
+						</div>--->
+                    </article>
+                    <article class="portfolio-item pf-icons pf-illustrations">
+                        <div class="portfolio-image">
+                            <!--<a href="portfolio-single.html">-->
+                            <a href="#">
+                                <img src="images/gallery_images/gallery_img_4.jpg" alt="Open Imagination">
+                            </a>
+                            <div class="portfolio-overlay" data-lightbox="gallery">
+                                <a href="images/portfolio/full/4.jpg" class="center-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                            </div>
+                        </div>
+                        <!---
+						<div class="portfolio-desc">
+							<h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
+							<span><a href="#"><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
+						</div>--->
+                    </article>
+                    <article class="portfolio-item pf-icons pf-illustrations">
+                        <div class="portfolio-image">
+                            <!--<a href="portfolio-single.html">-->
+                            <a href="#">
+                                <img src="images/gallery_images/gallery_img_5.jpg" alt="Open Imagination">
+                            </a>
+                            <div class="portfolio-overlay" data-lightbox="gallery">
+                                <a href="images/portfolio/full/4.jpg" class="center-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                            </div>
+                        </div>
+                        <!---
+						<div class="portfolio-desc">
+							<h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
+							<span><a href="#"><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
+						</div>--->
+                    </article>
+                    <article class="portfolio-item pf-icons pf-illustrations">
+                        <div class="portfolio-image">
+                            <!--<a href="portfolio-single.html">-->
+                            <a href="#">
+                                <img src="images/gallery_images/gallery_img_6.jpg" alt="Open Imagination">
+                            </a>
+                            <div class="portfolio-overlay" data-lightbox="gallery">
+                                <a href="images/portfolio/full/4.jpg" class="center-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                            </div>
+                        </div>
+                        <!---
+						<div class="portfolio-desc">
+							<h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
+							<span><a href="#"><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
+						</div>--->
+                    </article>
+                    <article class="portfolio-item pf-icons pf-illustrations">
+                        <div class="portfolio-image">
+                            <!--<a href="portfolio-single.html">-->
+                            <a href="#">
+                                <img src="images/gallery_images/gallery_img_7.jpg" alt="Open Imagination">
+                            </a>
+                            <div class="portfolio-overlay" data-lightbox="gallery">
+                                <a href="images/portfolio/full/4.jpg" class="center-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                            </div>
+                        </div>
+                        <!---
+						<div class="portfolio-desc">
+							<h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
+							<span><a href="#"><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
+						</div>--->
+                    </article>
+                    <article class="portfolio-item pf-icons pf-illustrations">
+                        <div class="portfolio-image">
+                            <!--<a href="portfolio-single.html">-->
+                            <a href="#">
+                                <img src="images/gallery_images/gallery_img_8.jpg" alt="Open Imagination">
+                            </a>
+                            <div class="portfolio-overlay" data-lightbox="gallery">
+                                <a href="images/portfolio/full/4.jpg" class="center-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                            </div>
+                        </div>
+                        <!---
+						<div class="portfolio-desc">
+							<h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
+							<span><a href="#"><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
+						</div>--->
+                    </article>
+
+
+
+				</div>
+
+				<script type="text/javascript">
+
+					jQuery(window).load(function(){
+
+						var $container = $('#portfolio');
+
+						$container.isotope({
+							transitionDuration: '0.65s',
+							masonry: {
+								columnWidth: $container.find('.portfolio-item:not(.wide)')[0]
+							}
+						});
+
+						$('#page-menu a').click(function(){
+							$('#page-menu li').removeClass('current');
+							$(this).parent('li').addClass('current');
+							var selector = $(this).attr('data-filter');
+							$container.isotope({ filter: selector });
+							return false;
+						});
+
+						$(window).resize(function() {
+							$container.isotope('layout');
+						});
+
+					});
+
+				</script>
+
+				<div class="clear"></div>
+
+                <div class="section topmargin nobottommargin nobottomborder button-dark nopadding nomargin">
+                    <div class="container clearfix nomargin nopadding" style="width:100%;margin: 10px 0px !important;">
+                        <div class="fullwidth center">
+                            <img src="http://www.starad24.com/pics/banner/nhc_1.png" />
+                        </div>
+                    </div>
+                </div>
+
+				<div class="container clearfix">
+
+					<div class="col_one_third bottommargin-sm center">
+						<img data-animate="fadeInLeft" src="images/customization/iphone6.jpg" alt="Iphone">
+					</div>
+
+					<div class="col_two_third bottommargin-sm col_last">
+
+						<div class="heading-block topmargin-sm nobottommargin">
+							<h2>Optimized for Mobile &amp; Touch Enabled Devices.</h2>
+						</div>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero accusantium esse hic, obcaecati, ullam, laboriosam!</p>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam.</p>
+
+						<a href="#" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
+
+					</div>
+
+				</div>
+
+				<div class="section parallax dark nobottommargin" style="background-image: url('images/customization/testimonial_bg.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
+
+					<div class="heading-block center">
+						<h3>What Clients Say?</h3>
+					</div>
+
+					<div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
+						<div class="flexslider">
+							<div class="slider-wrap">
+								<div class="slide">
+									<div class="testi-image">
+										<a href="#"><img src="images/testimonial_users/testimonial_user_1.jpg" alt="Customer Testimonails"></a>
+									</div>
+									<div class="testi-content">
+										<p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
+										<div class="testi-meta">
+											Steve Jobs
+											<span>Apple Inc.</span>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="testi-image">
+										<a href="#"><img src="images/testimonial_users/testimonial_user_2.jpg" alt="Customer Testimonails"></a>
+									</div>
+									<div class="testi-content">
+										<p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
+										<div class="testi-meta">
+											Collis Ta'eed
+											<span>Envato Inc.</span>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="testi-image">
+										<a href="#"><img src="images/testimonial_users/testimonial_user_3.jpg" alt="Customer Testimonails"></a>
+									</div>
+									<div class="testi-content">
+										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
+										<div class="testi-meta">
+											John Doe
+											<span>XYZ Inc.</span>
+										</div>
+									</div>
+								</div>
+                                <div class="slide">
+                                    <div class="testi-image">
+                                        <a href="#"><img src="images/testimonial_users/testimonial_user_4.jpg" alt="Customer Testimonails"></a>
+                                    </div>
+                                    <div class="testi-content">
+                                        <p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
+                                        <div class="testi-meta">
+                                            Gates
+                                            <span>Apple Inc.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="testi-image">
+                                        <a href="#"><img src="images/testimonial_users/testimonial_user_5.jpg" alt="Customer Testimonails"></a>
+                                    </div>
+                                    <div class="testi-content">
+                                        <p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
+                                        <div class="testi-meta">
+                                            Fathima
+                                            <span>Envato Inc.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="testi-image">
+                                        <a href="#"><img src="images/testimonial_users/testimonial_user_6.jpg" alt="Customer Testimonails"></a>
+                                    </div>
+                                    <div class="testi-content">
+                                        <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
+                                        <div class="testi-meta">
+                                            Ellisabeth
+                                            <span>XYZ Inc.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="testi-image">
+                                        <a href="#"><img src="images/testimonial_users/testimonial_user_7.jpg" alt="Customer Testimonails"></a>
+                                    </div>
+                                    <div class="testi-content">
+                                        <p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
+                                        <div class="testi-meta">
+                                            Victoria
+                                            <span>Apple Inc.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="testi-image">
+                                        <a href="#"><img src="images/testimonial_users/testimonial_user_8.jpg" alt="Customer Testimonails"></a>
+                                    </div>
+                                    <div class="testi-content">
+                                        <p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
+                                        <div class="testi-meta">
+                                            Thilothama
+                                            <span>Envato Inc.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="testi-image">
+                                        <a href="#"><img src="images/testimonial_users/testimonial_user_9.jpg" alt="Customer Testimonails"></a>
+                                    </div>
+                                    <div class="testi-content">
+                                        <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
+                                        <div class="testi-meta">
+                                            Santra
+                                            <span>XYZ Inc.</span>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="section heading-section notopmargin notopborder">
+					<div class="container clearfix">
+						<div class="heading-block center nomargin">
+							<h3>Latest News</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="container clear-bottommargin clearfix">
+					<div class="row">
+
+						<div class="col-md-3 col-sm-6 bottommargin">
+							<div class="ipost clearfix">
+								<div class="entry-image">
+									<div class="post-date"><i class="icon-calendar3"></i> 13th Jun 2014</li></div>
+									<a href="#"><img class="image_fade" src="images/post_images/post_image_1.jpg" alt="Image"></a>
+								</div>
+								<div class="entry-title">
+									<h3><a href="blog-single.html">Bloomberg smart cities; change-makers economic security</a></h3>
+								</div>
+								<!--<ul class="entry-meta clearfix">
+									<li><i class="icon-calendar3"></i> 13th Jun 2014</li>
+									<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 53</a></li>
+								</ul>-->
+								<div class="entry-content">
+									<p>Prevention effect, advocate dialogue rural development lifting people up community civil society. Catalyst, grantees leverage.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 bottommargin">
+							<div class="ipost clearfix">
+								<div class="entry-image">
+									<div class="post-date"><i class="icon-calendar3"></i> 24th Feb 2014</li></div>
+									<a href="#"><img class="image_fade" src="images/post_images/post_image_2.jpg" alt="Image"></a>
+								</div>
+								<div class="entry-title">
+									<h3><a href="blog-single.html">Medicine new approaches communities, outcomes partnership</a></h3>
+								</div>
+								<!--<ul class="entry-meta clearfix">
+									<li><i class="icon-calendar3"></i> 24th Feb 2014</li>
+									<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 17</a></li>
+								</ul>-->
+								<div class="entry-content">
+									<p>Cross-agency coordination clean water rural, promising development turmoil inclusive education transformative community.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 bottommargin">
+							<div class="ipost clearfix">
+								<div class="entry-image">
+									<div class="post-date"><i class="icon-calendar3"></i> 30th Dec 2014</li></div>
+									<a href="#"><img class="image_fade" src="images/post_images/post_image_3.jpg" alt="Image"></a>
+								</div>
+								<div class="entry-title">
+									<h3><a href="blog-single.html">Significant altruism planned giving insurmountable challenges liberal</a></h3>
+								</div>
+								<!--<ul class="entry-meta clearfix">
+									<li><i class="icon-calendar3"></i> 30th Dec 2014</li>
+									<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13</a></li>
+								</ul>-->
+								<div class="entry-content">
+									<p>Micro-finance; vaccines peaceful contribution citizens of change generosity. Measures design thinking accelerate progress medical initiative.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6 bottommargin">
+							<div class="ipost clearfix">
+								<div class="entry-image">
+									<div class="post-date"><i class="icon-calendar3"></i> 15th Jan 2015</li></div>
+									<a href="#"><img class="image_fade" src="images/post_images/post_image_4.jpg" alt="Image"></a>
+								</div>
+								<div class="entry-title">
+									<h3><a href="blog-single.html">Compassion conflict resolution, progressive; tackle</a></h3>
+								</div>
+								<!--<ul class="entry-meta clearfix">
+									<li><i class="icon-calendar3"></i> 15th Jan 2014</li>
+									<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 54</a></li>
+								</ul>-->
+								<div class="entry-content">
+									<p>Community health workers best practices, effectiveness meaningful work The Elders fairness. Our ambitions local solutions globalization.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap clearfix">
+					
+					<div class="row">
+						
+						<div class="widget clearfix" >
+						
+					 <div class="col-md-6 col-sm-12 col-xs-12" style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">	
+					
+					<div class="row bottommargin-sm">
+	
+					 
+						
+						<div class="col-md-6 col-sm-6 col-xs-12">										
+								
+
+								<h1 style="margin-top:-8px;">StarAd24</h1>
+
+								<p><strong>Earn Money Every Minute!</strong></p>
+
+								
+									<address>
+										<strong>Head Office:</strong><br>
+										<h1 class="notopmargin nobottommargin">StarAd24 Limited,</h1>
+										1st Floor, 138 Main Street<br>
+										Gibraltar
+									</address>
+									
+									<abbr title="Registration Number"><strong>Reg Nr:</strong></abbr> 111886
+									
+						</div>
+						
+						<div class="col-md-6 col-sm-6 col-xs-12">
+									<h4>Contacts</h4>
+									<abbr title="Contact Company management"><strong>Contact Company management:</strong></abbr><br> <a href="mailto:management@starad24.com">management@starad24.com</a><br><br>
+									<abbr title="Contact Office Gibraltar"><strong>Contact Office Gibraltar:</strong></abbr><br> <a href="mailto:gibraltar@starad24.com">gibraltar@starad24.com</a><br><br>
+									<abbr title="Contact Legal Department"><strong>Contact Legal Department:</strong></abbr><br> <a href="mailto:compliance@starad24.com">compliance@starad24.com</a>
+
+						</div>
+						
+					</div>
+					
+					</div>
+					
+					
+						
+						
+						
+						<div class="col-md-3  col-sm-6 col-xs-12">
+							<div class="widget_links clearfix">
+
+								<h4>Menu</h4>
+
+								<ul>
+									<!--
+									<li><a href="http://codex.wordpress.org/">Documentation</a></li>
+									<li><a href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
+									<li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
+									<li><a href="http://wordpress.org/support/">Support Forums</a></li>
+									<li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
+									<li><a href="http://wordpress.org/news/">WordPress Blog</a></li>
+									<li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
+									-->
+									
+									<li><a href="http://codex.wordpress.org/">Earn Money</a></li>
+									<li><a href="http://wordpress.org/support/forum/requests-and-feedback">Effective Publishing</a></li>
+									<li><a href="http://wordpress.org/extend/plugins/">Partner Programs</a></li>
+									<li><a href="http://wordpress.org/support/">News</a></li>
+									<li><a href="http://wordpress.org/extend/themes/">Promotions</a></li>
+									<li><a href="http://wordpress.org/news/">Services</a></li>
+									
+									
+								</ul>
+
+							</div>
+						</div>
+						
+						<div class="col-md-3  col-sm-6 col-xs-12">
+							
+							<div class="widget clearfix" style="margin-bottom: -20px;">
+
+							<div class="row">
+
+								<div class="col-md-6 bottommargin-sm">
+									<div class="counter counter-small white footer-counter"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
+									<p class="nobottommargin counter-caption">Money earned</p>
+								</div>
+
+								<div class="col-md-6 bottommargin-sm">
+									<div class="counter counter-small white footer-counter"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
+									<p class="nobottommargin counter-caption">Clients</p>
+								</div>
+
+							</div>
+                        </div>
+                        
+                        <div class="" style="margin-bottom: -20px;">
+                            <div class="">
+                                <h4>Recent Users</h4>
+
+                                <div id="post-list-footer">
+                                    <div class="spost clearfix">
+                                        <div class="entry-c">
+                                            <div class="entry-title">
+                                                <h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="spost clearfix">
+                                        <div class="entry-c">
+                                            <div class="entry-title">
+                                                <h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="spost clearfix">
+                                        <div class="entry-c">
+                                            <div class="entry-title">
+                                                <h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+						</div>
+						
+						
+								
+							  
+
+					</div>
+
+						</div>
+
+						
+
+				</div>
+				
+
+			</div>
+			
+			<!-- Footer container End -->
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+
+				<div class="container clearfix">
+
+					<div class="col_half">
+						Copyrights &copy; 2015 All Rights Reserved by Starad24.<br>
+						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+					</div>
+
+					<div class="col_half col_last tright">
+						<div class="fright clearfix">
+							<a href="#" class="social-icon si-small si-borderless si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-twitter">
+								<i class="icon-twitter"></i>
+								<i class="icon-twitter"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-gplus">
+								<i class="icon-gplus"></i>
+								<i class="icon-gplus"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-pinterest">
+								<i class="icon-pinterest"></i>
+								<i class="icon-pinterest"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-vimeo">
+								<i class="icon-vimeo"></i>
+								<i class="icon-vimeo"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-github">
+								<i class="icon-github"></i>
+								<i class="icon-github"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-yahoo">
+								<i class="icon-yahoo"></i>
+								<i class="icon-yahoo"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+							</a>
+						</div>
+
+						<div class="clear"></div>
+
+						<i class="icon-envelope2"></i> support@starad24.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script type="text/javascript" src="js/functions.js"></script>
+
+</body>
+</html>

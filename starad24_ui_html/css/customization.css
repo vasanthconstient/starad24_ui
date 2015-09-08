@@ -1,0 +1,58 @@
+
+
+.heading-block::after{visibility:hidden;}
+
+.heading-section{padding-top:30px; padding-bottom:10px;}
+
+.portfolio-full .portfolio-item{margin: 1px !important;}
+
+.ipost .entry-image .post-date{position:absolute; z-index: 100; bottom:0; right:0; float:right; background:#555; opacity:0.8; padding:2px 8px; display:block; font-size:12px; color:white; }
+
+#footer.dark, .dark #footer{background-color:#585451;}
+
+.dark #copyrights{background:rgba(70, 67, 64, 0.5)}
+
+.dark #footer .social-icon.si-borderless, #footer.dark .social-icon.si-borderless{color:#888 !important;}
+
+.widget_links ul li{border-bottom: 2px dotted #444}
+
+.widget_links ul li a{font-size: 20px; padding-left: 0 !important; background-image: none !important}
+
+.footer-counter span{color:#333 !important;}
+
+.counter-caption{padding-left:5px}
+
+@media (min-width: 1199px) and (max-width: 1360px) 
+{
+	#primary-menu ul li a{font-size:16px;}
+}
+
+@media (min-width: 991px) and (max-width: 1200px) 
+{
+	
+}
+
+@media (min-width: 1049px) and (max-width: 1200px) 
+{
+	#header.full-header #primary-menu > ul{margin-right:10px; padding-right:10px;}
+	#primary-menu ul li a{font-size:15px; padding:0 5px;}
+}
+
+@media (min-width: 991px) and (max-width: 1048px) 
+{
+	#header.full-header #primary-menu > ul{margin-right:10px; padding-right:10px;}
+	#primary-menu ul li a{font-size:14px; padding:0 5px;}
+}
+
+
+@media (min-width: 767px) and (max-width: 992px)
+{
+	#header.full-header #primary-menu > ul{margin-right:10px; padding-right:10px;}
+	#primary-menu ul li a{font-size:14px; padding:0 5px;}
+}
+
+
+@media (max-width: 768px) 
+{
+	#header.full-header #primary-menu > ul{margin-right:10px; padding-right:10px;}
+}
