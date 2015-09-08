@@ -22,8 +22,6 @@
 .counter-caption{padding-left:5px}
 
 
-
-
 @media (min-width: 1156px) and (max-width: 1397px)
 {
 	#primary-menu ul li a{padding: 0 5px; letter-spacing:0; font-size: 14px;}
@@ -31,11 +29,12 @@
 }
 
 
-@media (min-width: 992px) and (max-width: 1156px)
+@media (min-width: 992px) and (max-width: 1155px)
 {
 	#primary-menu ul li a{padding: 0 5px; letter-spacing:0; font-size: 11px;}
 	#header.full-header #primary-menu > ul{margin-right: 5px; padding-right: 5px;}
 }
+
 @media (max-width: 991px) 
 {
 	#logo img{margin-top: 20px}
