@@ -1549,6 +1549,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.cent
 	margin: 0 auto;
 }
 
+
 .overlay-menu #primary-menu > ul > li > a {
 	height: 60px !important;
 	line-height: 60px !important;
@@ -1556,6 +1557,10 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.cent
 	letter-spacing: 2px;
 	text-transform: none;
 	opacity: 0;
+}	
+
+
+.overlay-menu #primary-menu > ul > li, .overlay-menu #primary-menu > ul > li > a {	
 	-webkit-transform: translateY(-80px);
 	-ms-transform: translateY(-80px);
 	-o-transform: translateY(-80px);

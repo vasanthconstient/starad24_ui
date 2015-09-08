@@ -21,6 +21,11 @@
 
 .counter-caption{padding-left:5px}
 
+.dark .slider-caption p{margin:0 150px;}
+
+#primary-menu ul li{line-height:100px;}
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li{line-height:60px;}
+
 
 @media (min-width: 1156px) and (max-width: 1397px)
 {
@@ -31,8 +36,8 @@
 
 @media (min-width: 992px) and (max-width: 1155px)
 {
-	#primary-menu ul li a{padding: 0 5px; letter-spacing:0; font-size: 11px;}
-	#header.full-header #primary-menu > ul{margin-right: 5px; padding-right: 5px;}
+	#primary-menu ul li a{padding: 0 3px; letter-spacing:0; font-size: 11px;}
+	#header.full-header #primary-menu > ul{margin-right: 2px; padding-right: 2px;}
 }
 
 @media (max-width: 991px) 
@@ -57,6 +62,10 @@
 	#logo{height: 80px;}
 	#logo img{margin-top: 10px}
 	#primary-menu-trigger{top:15px;}
+	
+	/* Common */
+	
+	.hidden-xs-sm {display: none;}
 	
 }
 
