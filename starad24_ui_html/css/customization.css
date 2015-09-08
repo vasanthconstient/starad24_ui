@@ -1,5 +1,4 @@
 
-
 .heading-block::after{visibility:hidden;}
 
 .heading-section{padding-top:30px; padding-bottom:10px;}
@@ -21,6 +20,23 @@
 .footer-counter span{color:#333 !important;}
 
 .counter-caption{padding-left:5px}
+
+
+
+
+@media (min-width: 1156px) and (max-width: 1397px)
+{
+	#primary-menu ul li a{padding: 0 5px; letter-spacing:0;}
+	#header.full-header #primary-menu > ul{margin-right: 15px; padding-right: 15px;}
+}
+
+
+
+
+
+
+
+/*
 
 @media (min-width: 1199px) and (max-width: 1360px) 
 {
@@ -56,3 +72,9 @@
 {
 	#header.full-header #primary-menu > ul{margin-right:10px; padding-right:10px;}
 }
+
+
+
+*/
+
+
