@@ -10682,6 +10682,13 @@ label.error { display: none !important; }
 
 .heading-block ~ p:not(.lead) { font-size: 22px; }
 
+
+.tright .heading-block,
+.heading-block.tright,
+.heading-block.title-right { direction: rtl; }
+
+/* hide by vasanth  starts--
+
 .heading-block:after {
 	content: '';
 	display: block;
@@ -10690,18 +10697,21 @@ label.error { display: none !important; }
 	border-top: 2px solid #444;
 }
 
+
+
 .center .heading-block:after,
 .heading-block.center:after,
 .heading-block.title-center:after { margin: 30px auto 0; }
 
-.tright .heading-block,
-.heading-block.tright,
-.heading-block.title-right { direction: rtl; }
+
 
 .heading-block.noborder:after,
 .heading-block.nobottomborder:after { display: none; }
 
 .heading-block.border-color:after { border-color: #4D4B49; }
+
+--hide by vasanth end */
+
 
 
 /* Emphasis Title
