@@ -137,10 +137,7 @@ body h1, body h1, body h3, body h4, body h5, body h6
 #page-title span
 { font-weight: 300; }
 
-#page-title.page-title-parallax h1
-{ font-weight: 700; }
-
-#page-title.page-title-mini h1
+#page-title.page-title-parallax h1, #page-title.page-title-mini h1
 { font-weight: 700; }
 
 #portfolio.portfolio-parallax .portfolio-desc h3
@@ -152,10 +149,7 @@ body h1, body h1, body h3, body h4, body h5, body h6
 .portfolio-single-content h2
 { font-weight: 700 !important; }
 
-.entry-title h2
-{ font-weight: 700; }
-
-.entry-meta li ins
+.entry-title h2, .entry-meta li ins
 { font-weight: 700; }
 
 .entry-link
@@ -169,33 +163,14 @@ body h1, body h1, body h3, body h4, body h5, body h6
 { font-weight: 900; }
 
 
-.post-grid .entry-title h2
+.post-grid .entry-title h2, .ipost .entry-title h3, .ipost .entry-title h4, .spost .entry-title h4, .mpost .entry-title h4, .mpost .entry-title h4, .product-price 
 { font-weight: 700; }
 
-.ipost .entry-title h3,
-.ipost .entry-title h4 
-{ font-weight: 700; }
-
-
-.spost .entry-title h4,
-.mpost .entry-title h4
-{ font-weight: 700; }
-
-
-.mpost .entry-title h4 
-{ font-weight: 700; }
-
-
-.product-price 
-{ font-weight: 700; }
 
 .product-price del
 { font-weight: 400; }
 
-.countdown-large .countdown-amount
-{ font-weight: 700; }
-
-.button
+.countdown-large .countdown-amount, .button
 { font-weight: 700; }
 
 .button.button-desc span
@@ -222,19 +197,13 @@ body h1, body h1, body h3, body h4, body h5, body h6
 .feature-box h3
 { font-weight: 700; }
 
-.feature-box h3 span.subtitle
+.feature-box h3 span.subtitle, .process-steps li h5
 { font-weight: 300; }
 
-.process-steps li h5
-{ font-weight: 300; }
 
-.process-steps li.active h5,
-.process-steps li.ui-tabs-active h5
+.process-steps li.active h5, .process-steps li.ui-tabs-active h5, .toggle .togglet, .toggle .toggleta
 { font-weight: 700; }
 
-.toggle .togglet,
-.toggle .toggleta
-{ font-weight: 700; }
 
 .accordion.accordion-lg .acctitle
 { font-weight: 400; }
@@ -250,26 +219,13 @@ body h1, body h1, body h3, body h4, body h5, body h6
 .team-title span
 { font-weight: 400; }
 
-.pricing-title span
-{ font-weight: 300; }
-
-.pricing-price
-{ font-weight: 300; }
-
-.pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure
-{ font-weight: 300; }
-
-.pricing-box.pricing-extended .pricing-meta
+.pricing-title span, .pricing-price, .pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure, .pricing-box.pricing-extended .pricing-meta
 { font-weight: 300; }
 
 .counter
 { font-weight: 700; }
 
-.counter.counter-xlarge
-{ font-weight: 400; }
-
-
-.counter + h5
+.counter.counter-xlarge, .counter + h5
 { font-weight: 400; }
 
 
@@ -281,11 +237,9 @@ body h1, body h1, body h3, body h4, body h5, body h6
 .skills li .progress-percent .counter
 { font-weight: 400; }
 
-.text-overlay-title h3
+.text-overlay-title h3, .news-carousel .rounded-skill
 { font-weight: 700; }
 
-.news-carousel .rounded-skill
-{ font-weight: 700; }
 
 label
 { font-weight: 900; }
@@ -328,10 +282,7 @@ label.error
 .nav-tree li a
 { font-weight: 900; }
 
-.wedding-head .first-name span, .wedding-head .last-name span
-{ font-weight: 400; }
-
-.responsive-utilities th small
+.wedding-head .first-name span, .wedding-head .last-name span, .responsive-utilities th small
 { font-weight: 400; }
 
 .dark .skills li > span
@@ -346,7 +297,7 @@ label.error
 
 
 #content p{font-size: 18px; line-height:26px;}
-
+.counter.counter-small{font-size: 24px}
 
 
 
